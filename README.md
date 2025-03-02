@@ -1,4 +1,43 @@
 # 🚀 Travel Alert Web App
+## 🚀 MVP Features for Travel Alert Web App  
+
+### ✅ 1. User Authentication & Email Connection  
+- [ ] **Sign up/Login with Google** (OAuth 2.0)  
+- [ ] **Connect Gmail to extract travel details** (OAuth + Gmail API)  
+- [ ] **Secure access permissions** (Users can revoke access anytime)  
+
+### 📧 2. Email Parsing & Travel Data Extraction  
+- [ ] Auto-fetch **flight booking details** (Destination, Date, Airline)  
+- [ ] Extract structured data from **email confirmations**  
+- [ ] Show users what data was extracted for transparency  
+
+### 🔔 3. Travel Alerts System  
+- [ ] Users can **set alerts** with:  
+  - **From:** Departure location  
+  - **To:** Destination  
+  - **Date Range:** Flexible or fixed  
+- [ ] Match alerts with **incoming travel data from connected users**  
+- [ ] Send **email notifications** when a match is found  
+
+### 🔗 4. Connections & Privacy Controls  
+- [ ] Users can **send & accept connection requests** (like a friend request system)  
+- [ ] Users can **approve/reject** connection requests  
+- [ ] Users can **choose who sees their travel plans** (All users or only connections)  
+- [ ] Option to **remove/block connections** anytime  
+- [ ] Notify **only selected connections** when a match occurs  
+
+### 📊 5. User Dashboard  
+- [ ] View **upcoming trips** (extracted from emails)  
+- [ ] Show **active travel alerts**  
+- [ ] Manage **connections & privacy settings**  
+- [ ] Disconnect email access anytime (for privacy)  
+
+### 🔒 6. Privacy & Security  
+- [ ] **No full email storage**—only extract **relevant travel data**  
+- [ ] **Allow users to delete their data** anytime  
+- [ ] Comply with **GDPR & email provider policies**  
+
+
 
 ## 📌 Development Plan  
 
